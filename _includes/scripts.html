@@ -1,4 +1,10 @@
 <script src="{{ '/assets/js/main.min.js' | absolute_url }}"></script>
 
+{% if page.js %}
+  {% for js in page.js %}
+  <script src="{{ js }}" type="text/javascript"></script> 
+  {% endfor %}
+{% endif %}
+
 {% include analytics.html %}
 {% include /comments-providers/scripts.html %}
