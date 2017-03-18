@@ -11,7 +11,7 @@ title                    : "metamap"
 title_separator          : "-"
 name                     : "Metamap"
 description              : "a project of artscienceblr"
-url                      : "https://metamapblr.github.io/"
+url                      : "https://metamapblr.github.io"
 baseurl                  : #
 repository               : "metamapblr/metamapblr.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
