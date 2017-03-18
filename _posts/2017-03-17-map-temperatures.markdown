@@ -16,13 +16,13 @@ The csv file was processed using awk:
 
 The temperature data contained a number of values of -9999, which we filtered out using the above awk command. The command parses out the 6th and 12th column of the csv file and sorts it by ascending date.
 
-The data contained a number of duplicate dates which were cleaned up using [uniq.py](https://github.com/metamapblr/software/bangalore-temperature/uniq.py)
+The data contained a number of duplicate dates which were cleaned up using [uniq.py](https://github.com/metamapblr/software/blob/master/bangalore-temperature/uniq.py)
 
     python uniq.py
 
 The file uniq.py takes the first date in the dataset and ignores subsequent duplicates.
 
-The data was then processed to calculate monthly temperature averages using [month.py](https://github.com/metamapblr/software/bangalore-temperature/month.py)
+The data was then processed to calculate monthly temperature averages using [month.py](https://github.com/metamapblr/software/blob/master/bangalore-temperature/month.py)
 
     python month.py
 
